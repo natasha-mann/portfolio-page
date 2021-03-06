@@ -1,3 +1,7 @@
+:root {
+  --pink: rgb(202, 133, 171);
+}
+
 html {
   box-sizing: border-box;
   font-size: 10px;
@@ -13,24 +17,18 @@ body {
 .header {
   position: relative;
   width: 100%;
-  border: 1px solid black;
 }
 
 /* Navbar styles */
 .navbar {
-  /* background-color: rgb(201, 168, 186);
-  background: linear-gradient(
-    to bottom,
-    rgb(201, 168, 186),
-    rgb(202, 133, 171)
-  );
-  background: linear-gradient (to top, rgb(201, 168, 186), rgb(202, 133, 171)); */
   position: fixed;
+  top: 0;
   z-index: 2;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 
 .navbar__list {
@@ -41,11 +39,14 @@ body {
   margin: 20px;
   text-decoration: none;
   font-size: 2rem;
+  color: black;
+  font-weight: bold;
 }
 
 .navbar__link:hover {
   font-size: 2.5rem;
   text-decoration: underline;
+  color: var(--pink);
 }
 
 /* Title section styles */
@@ -88,7 +89,7 @@ body {
 }
 
 .name {
-  color: rgb(202, 133, 171);
+  color: var(--pink);
 }
 
 .intro__info {
