@@ -3,45 +3,69 @@ body {
   height: 100vh;
 }
 
+/* Header styles */
 .header {
 }
 
+/* Navbar styles */
 .navbar {
 }
 
-.navbar ul {
+.navbar__list {
 }
 
-.navbar ul li {
+.navbar__link {
 }
 
+/* Title section styles */
 .intro__profile-img {
   max-width: 288px;
   max-height: 272px;
 }
 
+.intro__content {
+}
+
 .intro__title {
+}
+
+.intro__info {
+}
+
+/* Main section general styling */
+.main {
+}
+
+/* About section */
+.about {
 }
 
 .about__title {
 }
 
-.about-container {
+.about__title--small {
 }
 
-.about-item {
+.about__container {
+}
+
+.about__item {
 }
 
 .about__info {
 }
 
+/* Projects Section */
 .projects {
 }
 
-.project-header {
+.project__header {
 }
 
-.info__project {
+.project__title {
+}
+
+.project__info {
 }
 
 .project-container {
@@ -50,11 +74,37 @@ body {
 .project-item-1 {
 }
 
-.image__project-item-1 {
+.image-1-container {
+}
+
+.project-1-image {
 }
 
 .project-item {
 }
 
-.image__project-item {
+.project-image-container {
+}
+
+.project__image {
+}
+
+/* Contact section */
+
+.contact {
+}
+
+.contact__title {
+}
+
+.contact__info {
+}
+
+.social {
+}
+
+.social__link {
+}
+
+.social__icon {
 }
