@@ -51,25 +51,36 @@ body {
 /* Title section styles */
 
 .intro {
+  width: 100%;
   display: flex;
-  flew-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
+.intro__item {
+  position: relative;
+}
+
 .intro__img-container {
-  width: 30%;
+  justify-content: flex-end;
+  padding: 20px;
+  max-width: 30%;
 }
 
 .intro__profile-img {
   max-width: 288px;
   max-height: 272px;
   border-radius: 50%;
-  transform: translate(60%);
+  position: relative;
+  left: 40%;
 }
 
 .intro__content {
-  margin-left: 10%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .intro__title {
