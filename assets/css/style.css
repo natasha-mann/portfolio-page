@@ -1,4 +1,36 @@
-.profile-img {
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+.header {
+}
+
+.navbar {
+}
+
+.navbar ul {
+}
+
+.navbar ul li {
+}
+
+.intro__profile-img {
   max-width: 288px;
   max-height: 272px;
+}
+
+.intro__title {
+}
+
+.about__title {
+}
+
+.about-container {
+}
+
+.about-item {
+}
+
+.about__info {
 }
