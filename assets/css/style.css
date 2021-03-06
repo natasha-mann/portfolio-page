@@ -6,13 +6,14 @@ html {
 body {
   margin: 0px;
   height: 100vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header styles */
 .header {
   position: relative;
   width: 100%;
+  border: 1px solid black;
 }
 
 /* Navbar styles */
@@ -48,18 +49,39 @@ body {
 }
 
 /* Title section styles */
+
+.intro {
+  display: flex;
+  flew-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.intro__img-container {
+  width: 30%;
+}
+
 .intro__profile-img {
   max-width: 288px;
   max-height: 272px;
+  border-radius: 50%;
+  transform: translate(60%);
 }
 
 .intro__content {
+  margin-left: 10%;
 }
 
 .intro__title {
+  font-size: 5rem;
+}
+
+.name {
+  color: rgb(202, 133, 171);
 }
 
 .intro__info {
+  font-size: 3rem;
 }
 
 /* Main section general styling */
