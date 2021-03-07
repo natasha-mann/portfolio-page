@@ -3,9 +3,11 @@
 }
 
 html {
-  box-sizing: border-box;
   font-size: 10px;
-  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +23,6 @@ body {
 /* Header styles */
 .header {
   position: relative;
-  width: 100%;
   padding-bottom: 30px;
 }
 
@@ -50,6 +51,12 @@ body {
 }
 
 .navbar__link:hover {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color: var(--pink);
+}
+
+.navbar__link:active {
   font-size: 2.5rem;
   text-decoration: underline;
   color: var(--pink);
@@ -153,30 +160,50 @@ body {
 
 /* Projects Section */
 .projects {
+  border: 1px solid red;
 }
 
 .project__header {
+  padding-top: 80px;
 }
 
 .project__title {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .project__info {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2rem;
 }
 
-.project-container {
-}
-
-.project-item-1 {
-}
+.project-1-container {
+  width: 70%;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
 
 .image-1-container {
+  border: 5px solid black;
 }
 
 .project-1-image {
 }
 
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 .project-item {
+  border: 2px solid green;
+  text-align: justify;
+  position: relative;
+  margin: 15px;
+  width: 415px;
 }
 
 .project-image-container {
