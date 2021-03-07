@@ -23,26 +23,19 @@ body {
 
 /* Navbar styles */
 .navbar {
-  position: fixed;
+  position: absolute;
+  width: 100%;
   top: 0;
   z-index: 2;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
   background-color: white;
   /* TODO remove */
   border: 1px solid blue;
 }
 
-.navbar__list {
-  display: inline;
-  background-color: pink;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.navbar__link {
+.navbar-link {
   margin: 20px;
   text-decoration: none;
   font-size: 2rem;
@@ -50,7 +43,7 @@ body {
   font-weight: bold;
 }
 
-.navbar__link:hover {
+.navbar-link:hover {
   font-size: 2.5rem;
   text-decoration: underline;
   color: var(--pink);
