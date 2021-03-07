@@ -172,7 +172,7 @@ body {
   position: relative;
   margin: 15px;
   width: 40%;
-  background-color: red;
+  /* background-color: red; */
   height: 400px;
 }
 
@@ -191,6 +191,38 @@ body {
 
 .project-card:first-child:hover {
   width: 75vw;
+}
+
+.project-card:nth-child(2) {
+  /* width: 70vw;
+  height: 400px; */
+  background-image: url(../images/placeholder-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.project-card:nth-child(3) {
+  /* width: 70vw;
+  height: 400px; */
+  background-image: url(../images/placeholder-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.project-card:nth-child(4) {
+  /* width: 70vw;
+  height: 400px; */
+  background-image: url(../images/placeholder-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.project-card:nth-child(5) {
+  /* width: 70vw;
+  height: 400px; */
+  background-image: url(../images/placeholder-4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .card-title {
