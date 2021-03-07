@@ -185,22 +185,27 @@ body {
   text-align: justify;
   position: relative;
   margin: 15px;
-  width: 415px;
+  width: 45%;
   background-color: red;
-  height: 200px;
+  height: 400px;
 }
 
 .project-card:first-child {
-  width: 100vw;
-}
-
-.project-1-image {
+  width: 70vw;
+  height: 400px;
   background-image: url(../images/project-img-1.jpg);
   background-size: cover;
-  b
+  background-position: center;
 }
 
-.project__image {
+.card-title {
+  background-color: yellow;
+  position: absolute;
+  padding: 20px 30px;
+  font-size: 3rem;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
 }
 
 /* Contact section */
