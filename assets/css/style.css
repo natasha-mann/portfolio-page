@@ -190,6 +190,11 @@ body {
   height: 400px;
 }
 
+.project-card:hover {
+  width: 48%;
+  height: 420px;
+}
+
 .project-card:first-child {
   width: 70vw;
   height: 400px;
@@ -198,14 +203,25 @@ body {
   background-position: center;
 }
 
+.project-card:first-child:hover {
+  width: 75vw;
+  /* height: 420px; */
+}
+
 .card-title {
-  background-color: yellow;
   position: absolute;
-  padding: 20px 30px;
+  padding: 20px 25px;
   font-size: 3rem;
   left: 50%;
-  top: 80%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  background-color: var(--pink);
+  color: black;
+}
+
+.card-title h2 {
+  font-weight: bold;
 }
 
 /* Contact section */
