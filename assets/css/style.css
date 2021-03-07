@@ -215,6 +215,21 @@ body {
 .social__icon {
 }
 
+/* media query for tablets */
+@media screen and (max-width: 768px) {
+  .intro__profile-img {
+    margin-top: 20%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+  }
+
+  .intro__content {
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+}
+
 /* media query for mobile devices */
 @media screen and (max-width: 480px) {
   .header {
@@ -224,17 +239,28 @@ body {
   .navbar {
     display: fixed;
     width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .navbar-link {
+    margin: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .intro {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 10%; */
+  }
+
+  .intro__img-container {
+    width: 100%;
+    position: relative;
   }
 
   .intro__profile-img {
-    margin-top: 35%;
-    margin-bottom: 15px;
+    margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .intro__title {
@@ -244,14 +270,10 @@ body {
 
   .intro__info {
     font-size: 3rem;
-    line-height: 8rem;
+    margin-top: 10px;
   }
   .intro__content {
     width: 100%;
     margin: 0;
   }
-}
-
-/* media query for tablets */
-@media screen and (max-width: 768px) {
 }
