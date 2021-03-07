@@ -5,6 +5,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  padding: 0px;
 }
 
 body {
@@ -13,10 +14,15 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.title {
+  font-size: 3.5rem;
+}
+
 /* Header styles */
 .header {
   position: relative;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 /* Navbar styles */
@@ -57,6 +63,7 @@ body {
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 .intro__item {
@@ -102,21 +109,46 @@ body {
 
 /* About section */
 .about {
+  /* border: 1px solid black; */
+  /* padding: 20px; */
 }
 
 .about__title {
-}
+  /* border: 1px solid black; */
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
 
-.about__title--small {
+  /* left: 50%; */
 }
 
 .about__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .about__item {
+  /* border: 1px solid black; */
+  width: 300px;
+  position: relative;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.about__title--small {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .about__info {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 30px;
 }
 
 /* Projects Section */
