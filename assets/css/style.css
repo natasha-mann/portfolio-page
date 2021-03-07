@@ -153,7 +153,9 @@ body {
 
 /* Projects Section */
 .projects {
-  border: 1px solid red;
+  background-color: turquoise;
+  height: 100vh;
+  position: relative;
 }
 
 .project__header {
@@ -161,32 +163,41 @@ body {
 }
 
 .project__title {
-  position: relative;
-  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 20px 0;
-}
-
-.project__info {
-  position: relative;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 2rem;
+  margin: 10px 0;
 }
 
 .projects-container {
+  background-color: violet;
+  width: 100vw;
+  position: relative;
+  top: 20%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .project-card {
   text-align: justify;
   position: relative;
   margin: 15px;
   width: 415px;
   background-color: red;
+  height: 200px;
 }
 
-.card-image-container {
-  background-color: red;
+.project-card:first-child {
+  width: 100vw;
+}
+
+.project-1-image {
+  background-image: url(../images/project-img-1.jpg);
+  background-size: cover;
+  b
 }
 
 .project__image {
