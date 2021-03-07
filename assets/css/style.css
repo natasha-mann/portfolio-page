@@ -49,7 +49,7 @@ body {
   color: var(--pink);
 }
 
-.navbar__link:active {
+.navbar__link.active {
   font-size: 2.5rem;
   text-decoration: underline;
   color: var(--pink);
@@ -98,6 +98,7 @@ body {
 
 .name {
   color: var(--pink);
+  font-weight: bolder;
 }
 
 .intro__info {
@@ -214,6 +215,43 @@ body {
 .social__icon {
 }
 
-@media screen and (max-width: 575px) {
-  width: 100vw;
+/* media query for mobile devices */
+@media screen and (max-width: 480px) {
+  .header {
+    display: relative;
+  }
+
+  .navbar {
+    display: fixed;
+    width: 100vw;
+  }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 10%; */
+  }
+
+  .intro__profile-img {
+    margin-top: 35%;
+    margin-bottom: 15px;
+  }
+
+  .intro__title {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  .intro__info {
+    font-size: 3rem;
+    line-height: 8rem;
+  }
+  .intro__content {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* media query for tablets */
+@media screen and (max-width: 768px) {
 }
