@@ -50,24 +50,14 @@ body {
   color: var(--pink);
 }
 
-.navbar__link.active {
-  font-size: 2.5rem;
-  text-decoration: underline;
-  color: var(--pink);
-}
-
 /* Title section styles */
 
 .intro {
-  /* width: 100vw; */
   height: 100vh;
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   margin-bottom: 20px;
   padding: 30px;
-  /* TODO remove */
-  border: 1px solid red;
 }
 
 .intro__profile-img {
@@ -83,7 +73,6 @@ body {
   text-align: left;
   padding: 15px;
   margin-left: 20%;
-  border: 1px solid red;
 }
 
 .intro__title {
@@ -107,7 +96,6 @@ body {
 
 /* About section */
 .about {
-  background-color: var(--pink);
   height: 100vh;
   position: relative;
 }
@@ -153,7 +141,6 @@ body {
 
 /* Projects Section */
 .projects {
-  background-color: turquoise;
   height: 100vh;
   position: relative;
 }
@@ -172,7 +159,6 @@ body {
 }
 
 .projects-container {
-  background-color: violet;
   width: 100vw;
   position: relative;
   top: 20%;
@@ -205,7 +191,6 @@ body {
 
 .project-card:first-child:hover {
   width: 75vw;
-  /* height: 420px; */
 }
 
 .card-title {
