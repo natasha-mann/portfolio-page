@@ -300,6 +300,34 @@ body {
     width: 85vw;
     margin: 5px 0;
   }
+
+  /* project section */
+  .projects {
+    height: 100vh;
+    position: relative;
+    margin-top: 8rem;
+  }
+
+  .project-card {
+    height: 200px;
+  }
+
+  .project-card:first-child {
+    width: 80vw;
+    height: 300px;
+  }
+
+  .card-title {
+    width: 75%;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  .first-card-title {
+    width: 60%;
+    padding: 15px 25px;
+  }
 }
 
 /* media query for mobile devices */
