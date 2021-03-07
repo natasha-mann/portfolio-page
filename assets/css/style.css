@@ -6,12 +6,7 @@ html {
   font-size: 10px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0px;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -32,14 +27,19 @@ body {
   top: 0;
   z-index: 2;
   width: 100%;
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
+  /* TODO remove */
+  border: 1px solid blue;
 }
 
 .navbar__list {
   display: inline;
+  background-color: pink;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .navbar__link {
@@ -65,41 +65,42 @@ body {
 /* Title section styles */
 
 .intro {
-  width: 100%;
+  /* width: 100vw; */
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 100px;
+  /* flex-wrap: wrap; */
+  align-items: center;
   margin-bottom: 20px;
-  padding-top: 50px;
+  padding: 30px;
+  /* TODO remove */
+  border: 1px solid red;
 }
 
-.intro__item {
-  position: relative;
-}
-
-.intro__img-container {
+/* .intro__img-container {
   justify-content: flex-end;
   padding: 20px;
   max-width: 30%;
-}
+} */
 
 .intro__profile-img {
-  max-width: 288px;
-  max-height: 272px;
+  max-width: 40vw;
+  max-height: 45vh;
   border-radius: 50%;
   position: relative;
-  left: 40%;
+  margin-left: 50%;
+  border: 1px solid red;
 }
 
 .intro__content {
-  margin-left: 15%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 50vw;
+  text-align: left;
+  padding: 15px;
+  margin-left: 20%;
+  border: 1px solid red;
 }
 
 .intro__title {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .name {
@@ -107,7 +108,7 @@ body {
 }
 
 .intro__info {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 /* Main section general styling */
@@ -118,6 +119,7 @@ body {
 .about {
   /* border: 1px solid black; */
   /* padding: 20px; */
+  /* margin-top:100px; */
 }
 
 .about__title {
@@ -180,33 +182,20 @@ body {
   font-size: 2rem;
 }
 
-.project-1-container {
-  width: 70%;
-  position:absolute;
-  left:50%;
-  transform: translateX(-50%);
-  border: 1px solid black;
-
-.image-1-container {
-  border: 5px solid black;
-}
-
-.project-1-image {
-}
-
-.project-container {
+.projects-container {
   display: flex;
   flex-wrap: wrap;
 }
-.project-item {
-  border: 2px solid green;
+.project-card {
   text-align: justify;
   position: relative;
   margin: 15px;
   width: 415px;
+  background-color: red;
 }
 
-.project-image-container {
+.card-image-container {
+  background-color: red;
 }
 
 .project__image {
@@ -230,4 +219,8 @@ body {
 }
 
 .social__icon {
+}
+
+@media screen and (max-width: 575px) {
+  width: 100vw;
 }
