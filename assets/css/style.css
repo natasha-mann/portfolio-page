@@ -80,6 +80,7 @@ body {
 
 .intro__title {
   font-size: 6rem;
+  white-space: nowrap;
 }
 
 .name {
@@ -298,6 +299,11 @@ body {
 }
 
 /* media query for tablets */
+
+@media screen and (max-width: 979px) {
+}
+
+/* media query for mobile landscape */
 @media screen and (max-width: 768px) {
   /* profile section */
   .intro__profile-img {
