@@ -280,38 +280,30 @@ body {
 /* Contact section */
 
 .contact {
-  /* background-color: var(--pink); */
   height: 100%;
   margin-top: 5%;
   padding-bottom: 10%;
 }
 
-.contact__title {
+.contact-content {
   position: relative;
   width: fit-content;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.contact__title {
   padding: 25px 40px;
   margin: 10px 0;
 }
 
 .contact__info {
-  position: relative;
-  width: fit-content;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
   padding: 15px 0;
   font-size: 3rem;
 }
 
 .social {
-  position: relative;
-  width: fit-content;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
   padding: 25px 0;
   margin: 10px 0;
 }
