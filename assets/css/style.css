@@ -1,5 +1,5 @@
 :root {
-  --pink: rgb(202, 133, 171);
+  --pink: rgb(221, 146, 155);
 }
 
 html {
@@ -256,7 +256,7 @@ body {
 /* Contact section */
 
 .contact {
-  background-color: pink;
+  background-color: var(--pink);
   height: 100%;
   margin-top: 5%;
 }
