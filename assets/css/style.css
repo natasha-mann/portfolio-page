@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -64,7 +64,6 @@ body {
   animation: dropInAndBounce 1s ease-out;
 }
 .intro__profile-img {
-  max-width: 45vw;
   max-height: 50vh;
   border-radius: 50%;
   position: relative;
@@ -72,10 +71,10 @@ body {
 }
 
 .intro__content {
-  width: 50vw;
+  max-width: 55%;
   text-align: left;
   padding: 15px;
-  margin-left: 20%;
+  margin-left: 15%;
   animation: dropIn 0.5s ease-out;
 }
 
@@ -128,7 +127,7 @@ body {
 .about__item {
   position: relative;
   background-color: white;
-  width: 25vw;
+  width: 25%;
   margin: 5px 15px;
   padding: 15px 15px;
 }
@@ -164,7 +163,7 @@ body {
 }
 
 .projects-container {
-  width: 100vw;
+  width: 100%;
   position: relative;
   top: 10%;
   display: flex;
@@ -186,7 +185,7 @@ body {
 }
 
 .project-card:first-child {
-  width: 70vw;
+  width: 70%;
   height: 400px;
   background-image: url(../images/project-img-1.jpg);
   background-size: cover;
@@ -194,7 +193,7 @@ body {
 }
 
 .project-card:first-child:hover {
-  width: 75vw;
+  width: 75%;
 }
 
 .project-card:nth-child(2) {
@@ -320,7 +319,7 @@ body {
   }
 
   .about__item {
-    width: 85vw;
+    width: 85%;
     margin: 5px 0;
   }
 
@@ -334,7 +333,7 @@ body {
   }
 
   .project-card:first-child {
-    width: 80vw;
+    width: 80%;
     height: 300px;
   }
 
@@ -403,11 +402,11 @@ body {
 
   .project-card {
     height: 200px;
-    width: 70vw;
+    width: 70%;
   }
 
   .project-card:first-child {
-    width: 80vw;
+    width: 80%;
     height: 250px;
   }
 
