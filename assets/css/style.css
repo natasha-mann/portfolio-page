@@ -369,6 +369,10 @@ body {
 /* media query for mobile landscape */
 @media screen and (max-width: 768px) {
   /* profile section */
+  .navbar-link:first-child {
+    display: none;
+  }
+
   .intro {
     flex-direction: column;
   }
@@ -391,7 +395,7 @@ body {
   }
 
   .intro__info {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   /* about section */
