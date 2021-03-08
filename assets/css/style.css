@@ -83,6 +83,7 @@ body {
 
 .intro__title {
   font-size: 6rem;
+  margin-bottom: 2rem;
 }
 
 .name {
@@ -91,7 +92,8 @@ body {
 }
 
 .intro__info {
-  font-size: 5rem;
+  line-height: 5rem;
+  font-size: 4rem;
 }
 
 /* Main section general styling */
