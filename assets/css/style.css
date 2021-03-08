@@ -64,6 +64,7 @@ body {
   animation: dropInAndBounce 1s ease-out;
 }
 .intro__profile-img {
+  /* max-width:45vw; */
   max-height: 50vh;
   border-radius: 50%;
   position: relative;
@@ -71,16 +72,18 @@ body {
 }
 
 .intro__content {
-  max-width: 55%;
+  /* max-width: 55%; */
+  width: 50vw;
   text-align: left;
   padding: 15px;
+  /* margin-left: 20%; */
   margin-left: 15%;
   animation: dropIn 0.5s ease-out;
 }
 
 .intro__title {
   font-size: 6rem;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .name {
@@ -128,7 +131,8 @@ body {
 .about__item {
   position: relative;
   background-color: white;
-  width: 25%;
+  /* width: 25%; */
+  width: 25vw;
   margin: 5px 15px;
   padding: 15px 15px;
 }
@@ -164,7 +168,8 @@ body {
 }
 
 .projects-container {
-  width: 100%;
+  /* width: 100%; */
+  width: 100vw;
   position: relative;
   top: 10%;
   display: flex;
@@ -186,7 +191,8 @@ body {
 }
 
 .project-card:first-child {
-  width: 70%;
+  /* width: 70%; */
+  width: 75vw;
   height: 400px;
   background-image: url(../images/project-img-1.jpg);
   background-size: cover;
@@ -325,7 +331,8 @@ body {
   }
 
   .about__item {
-    width: 85%;
+    /* width: 85%; */
+    width: 85vw;
     margin: 5px 0;
   }
 
@@ -339,7 +346,8 @@ body {
   }
 
   .project-card:first-child {
-    width: 80%;
+    /* width: 80%; */
+    width: 80vw;
     height: 300px;
   }
 
@@ -408,11 +416,13 @@ body {
 
   .project-card {
     height: 200px;
-    width: 70%;
+    /* width: 70%; */
+    width: 70vw;
   }
 
   .project-card:first-child {
-    width: 80%;
+    /* width: 80%; */
+    width: 80vw;
     height: 250px;
   }
 
