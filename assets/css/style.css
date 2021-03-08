@@ -155,8 +155,9 @@ body {
 .about__title--small {
   position: relative;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
+  text-decoration: underline double rgb(82, 181, 178);
 }
 
 .about__info {
