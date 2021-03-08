@@ -116,9 +116,6 @@ body {
   transform: translateX(-50%);
   padding: 60px 50px 3% 50px;
   margin: 10px 0;
-  /* background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
-  background-size: cover;
-  background-position: center; */
 }
 
 .about__title::after {
@@ -170,6 +167,7 @@ body {
 .projects {
   height: 100%;
   position: relative;
+  padding-top: 7%;
 }
 
 .project__title {
