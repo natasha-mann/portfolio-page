@@ -116,7 +116,7 @@ body {
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  padding: 60px 50px 3% 50px;
+  padding: 60px 50px 1% 50px;
   margin: 10px 0;
 }
 
@@ -161,7 +161,7 @@ body {
 
 .about__info {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-top: 30px;
 }
 
