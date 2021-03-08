@@ -114,14 +114,25 @@ body {
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 60px;
-  padding-bottom: 3%;
   padding: 60px 50px 3% 50px;
   margin: 10px 0;
+  /* background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
+  background-size: cover;
+  background-position: center; */
+}
+
+.about__title::after {
+  content: "";
   background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
   background-size: cover;
   background-position: center;
-  ba
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .about__container {
@@ -167,9 +178,22 @@ body {
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 10%;
-  padding-bottom: 3%;
+  padding: 5% 6% 3% 6%;
   margin: 10px 0;
+}
+
+.project__title::after {
+  content: "";
+  background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
+  background-size: contain;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .projects-container {
@@ -263,7 +287,7 @@ body {
 /* Contact section */
 
 .contact {
-  background-color: var(--pink);
+  /* background-color: var(--pink); */
   height: 100%;
   margin-top: 5%;
   padding-bottom: 15%;
@@ -275,8 +299,22 @@ body {
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  padding: 25px 0;
+  padding: 25px 40px;
   margin: 10px 0;
+}
+
+.contact__title::after {
+  content: "";
+  background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .contact__info {
