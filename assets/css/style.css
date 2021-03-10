@@ -431,7 +431,7 @@ body {
     display: block;
     position: relative;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -60%);
     background-color: white;
     background-image: url(../images/hamburger.png);
     background-size: 50%;
