@@ -394,6 +394,7 @@ body {
 
 /* media query for mobile devices */
 @media screen and (max-width: 480px) {
+  /* navbar styles */
   .navbar {
     padding: 10;
     left: 50%;
@@ -449,9 +450,12 @@ body {
     line-height: 5rem;
   }
 
+  /* main section styles */
   .headings {
     font-size: 3rem;
   }
+
+  /* intro styles */
 
   .intro__greeting {
     font-size: 4.4rem;
@@ -478,6 +482,8 @@ body {
   }
 }
 
+/* profile pic animation */
+
 @keyframes dropInAndBounce {
   0% {
     transform: translateY(-50rem);
@@ -502,6 +508,8 @@ body {
   }
 }
 
+/* intro text animation */
+
 @keyframes dropIn {
   0% {
     transform: translateY(-50rem);
@@ -511,6 +519,8 @@ body {
     transform: translateY(0rem);
   }
 }
+
+/* mobile navbar animation */
 
 @keyframes flyIn {
   0% {
