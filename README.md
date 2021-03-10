@@ -1,18 +1,20 @@
-<p align=center>
+  <P align=center>
   <a href="https://natasha-mann.github.io/portfolio-page/">
-    <img src="../week-2-homework/assets/images/favicons/apple-touch-icon.png" alt="Logo" width="80" height="80">
+    <img src="../week-2-homework/assets/images/favicons/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a></p>
 
-# Personal Portfolio | Natasha Mann
+<h1 align=center> Personal Portfolio | Natasha Mann </h1>
 
-## Table of Contents
+<h2> Table of Contents </h2>
 
-- [Personal Portfolio | Natasha Mann](#personal-portfolio--natasha-mann)
-  - [Table of Contents](#table-of-contents)
-  - [About the Project](#about-the-project)
-  - [Plans for Improvement](#plans-for-improvement)
-  - [Project Link](#project-link)
-  - [Screenshots](#screenshots)
+- [Project Link](#project-link)
+- [About the Project](#about-the-project)
+- [Plans for Improvement](#plans-for-improvement)
+- [Screenshots](#screenshots)
+
+## Project Link
+
+Click [here](https://natasha-mann.github.io/portfolio-page/) to view the project on GitHub pages.
 
 ## About the Project
 
@@ -28,17 +30,17 @@ The page is fully responsive and includes some accessibility features (eg. alt a
 
 I implemented some animations on the title page and some :hover pseudo classes in the CSS to elevate the page.
 
+I also decided to add a hidden navbar element for mobile users, utilizing the animations in CSS along with pseudo-classes to apply certain CSS properties when a box is selected. This could be further improved in the future with Javascript, as noted below.
+
 ## Plans for Improvement
 
 In the future I would like to develop the page further, to include some Javascript and other advanced CSS features. Primarily, I would aim to implement the following features:
 
-- A "scroll-snap" feature on desktop to lock the viewport to each new section once teh user has finished scrolling.
+- A "scroll-snap" feature on desktop to lock the viewport to each new section once the user has finished scrolling.
 - An "internationalization" feature to allow the user to switch the site to their preferred language.
 - A "dark-mode" element
-- Hidden navbar for mobile users which appears upon clicking a button.
-
-## Project Link
-
-Click [here](https://natasha-mann.github.io/portfolio-page/) to view the project on GitHub pages.
+- An improved hidden navbar for mobile users which drops down from the top when a button is clicked, and retracts when the user selects a menu item.
 
 ## Screenshots
+
+![image](./assets/images/fullscreen-screenshot.png)
