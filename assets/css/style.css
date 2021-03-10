@@ -294,6 +294,23 @@ body {
 
 /* media query for large laptop/desktop */
 
+@media screen and (min-width: 1080px) {
+  .intro {
+    padding-bottom: 50px;
+  }
+
+  .sections {
+    padding-top: 120px;
+    padding-bottom: 150px;
+  }
+
+  .about__item {
+    max-width: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 /* media query for tablets */
 @media screen and (max-width: 768px) {
   /* navbar */
