@@ -52,6 +52,12 @@ body {
   flex-direction: column;
 }
 
+.sections {
+  height: 100%;
+  position: relative;
+  padding: 60px 0;
+}
+
 .headings {
   position: relative;
   width: fit-content;
@@ -131,12 +137,6 @@ body {
 }
 
 /* About section */
-.about {
-  height: 100%;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 7%;
-}
 
 .about__container {
   width: 100%;
@@ -175,11 +175,6 @@ body {
 }
 
 /* Projects Section */
-.projects {
-  height: 100%;
-  position: relative;
-  padding-top: 5%;
-}
 
 .projects-container {
   width: 100%;
@@ -258,12 +253,6 @@ body {
 
 /* Contact section */
 
-.contact {
-  height: 100%;
-  margin-top: 20%;
-  padding-bottom: 50px;
-}
-
 .contact-content {
   position: relative;
   width: fit-content;
@@ -303,15 +292,16 @@ body {
   padding: 30px 0;
 }
 
-/* media query for tablets */
+/* media query for large laptop/desktop */
 
-/* media query for mobile landscape */
+/* media query for tablets */
 @media screen and (max-width: 768px) {
-  /* profile section */
+  /* navbar */
   .navbar-link:first-child {
     display: none;
   }
 
+  /* intro section */
   .intro {
     flex-direction: column;
   }
@@ -335,10 +325,6 @@ body {
 
   /* about section */
 
-  .about {
-    padding-bottom: 3%;
-  }
-
   .about__container {
     flex-direction: column;
     align-content: center;
@@ -350,9 +336,6 @@ body {
   }
 
   /* project section */
-  .projects {
-    margin-top: 2rem;
-  }
 
   .project-card {
     height: 200px;
@@ -389,6 +372,10 @@ body {
   .navbar-link {
     margin: 1.2rem;
     font-size: 1.8rem;
+  }
+
+  .headings {
+    font-size: 3rem;
   }
 
   .intro__greeting {
