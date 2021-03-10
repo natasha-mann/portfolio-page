@@ -302,7 +302,7 @@ body {
 
 /* media query for large laptop/desktop */
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1400px) {
   .intro {
     padding-bottom: 50px;
   }
