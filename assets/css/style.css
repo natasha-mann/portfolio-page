@@ -134,7 +134,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.name {
+.intro__name {
   color: var(--pink);
   font-weight: bolder;
 }
@@ -163,7 +163,7 @@ body {
   padding: 15px 15px;
 }
 
-.about__title--small {
+.about__subtitle {
   position: relative;
   text-align: center;
   font-size: 3rem;
@@ -231,10 +231,13 @@ body {
   width: 75%;
 }
 
-.all-card-titles {
+.card-titles {
   position: relative;
   text-align: center;
   line-height: 4rem;
+  width: 75%;
+  padding: 20px 40px;
+  font-size: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--pink);
@@ -248,20 +251,13 @@ body {
   font-size: 1.8rem;
 }
 
-.new-card-title {
-  width: 75%;
-  padding: 20px 40px;
-  font-size: 1.2rem;
-  left: 50%;
-}
-
-.all-card-titles h2 {
+.card-titles h2 {
   font-weight: bold;
 }
 
 /* Contact section */
 
-.contact-content {
+.contact__content {
   position: relative;
   width: fit-content;
   top: 10%;
@@ -302,7 +298,7 @@ body {
 
 /* media query for large laptop/desktop */
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   .intro {
     padding-bottom: 50px;
   }
@@ -371,7 +367,7 @@ body {
     height: 300px;
   }
 
-  .new-card-titles {
+  .card-titles {
     width: 75%;
     padding: 10px 30px;
     font-size: 1.2rem;
@@ -381,6 +377,7 @@ body {
   .first-card-title {
     width: 60%;
     padding: 15px 25px;
+    font-size: 1.5rem;
   }
 
   /* contact section */
