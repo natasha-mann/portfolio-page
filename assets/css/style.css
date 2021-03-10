@@ -298,7 +298,7 @@ body {
 
 /* media query for large laptop/desktop */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   .intro {
     padding-bottom: 50px;
   }
@@ -308,15 +308,25 @@ body {
     padding-bottom: 150px;
   }
 
+  #about-me {
+    margin: 0 80px;
+  }
+
+  .about__container {
+    justify-content: space-evenly;
+  }
+
   .about__item {
-    max-width: 25%;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
 /* media query for tablets */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   /* navbar */
   .home-nav {
     display: none;
