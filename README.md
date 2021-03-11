@@ -1,15 +1,16 @@
 <div style="text-align:center"><a href="https://natasha-mann.github.io/portfolio-page/"><img src="./assets/images/favicons/android-chrome-192x192.png"/></a></div>
 
-<h1 align=center> Personal Portfolio | Natasha Mann </h1>
+# Personal Portfolio | Natasha Mann
 
 <h2> Table of Contents </h2>
 
-- [Project Link](#project-link)
-- [About the Project](#about-the-project)
-- [Plans for Improvement](#plans-for-improvement)
-- [Screenshots](#screenshots)
-  - [Full page screen capture of deployed site on laptop](#full-page-screen-capture-of-deployed-site-on-laptop)
-  - [Screenshot examples of navbar on mobile device](#screenshot-examples-of-navbar-on-mobile-device)
+- [Personal Portfolio | Natasha Mann](#personal-portfolio--natasha-mann)
+  - [Project Link](#project-link)
+  - [About the Project](#about-the-project)
+  - [Plans for Improvement](#plans-for-improvement)
+  - [Screenshots](#screenshots)
+    - [Full page screen capture of deployed site on laptop](#full-page-screen-capture-of-deployed-site-on-laptop)
+    - [Screenshot examples of navbar on mobile device](#screenshot-examples-of-navbar-on-mobile-device)
 
 ## Project Link
 
