@@ -1,7 +1,4 @@
-  <P align=center>
-  <a href="https://natasha-mann.github.io/portfolio-page/">
-    <img src="../week-2-homework/assets/images/favicons/android-chrome-512x512.png" alt="Logo" width="80" height="80">
-  </a></p>
+<div style="text-align:center"><a href="https://natasha-mann.github.io/portfolio-page/"><img src="./assets/images/favicons/android-chrome-192x192.png"/></a></div>
 
 <h1 align=center> Personal Portfolio | Natasha Mann </h1>
 
