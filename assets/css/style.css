@@ -201,6 +201,7 @@ body {
   height: 400px;
   background-size: cover;
   background-position: center;
+  text-decoration: none;
 }
 
 .project-card:first-child {
@@ -325,8 +326,8 @@ body {
   }
 }
 
-/* media query for tablets */
-@media screen and (max-width: 920px) {
+/* media query for larget tablets/laptops */
+@media screen and (max-width: 1024px) {
   /* navbar */
   .home-nav {
     display: none;
@@ -399,8 +400,8 @@ body {
   }
 }
 
-/* media query for mobile devices */
-@media screen and (max-width: 480px) {
+/* media query for tablets */
+@media screen and (max-width: 550px) {
   /* navbar styles */
   .navbar {
     padding: 10;
@@ -464,6 +465,9 @@ body {
 
   /* intro styles */
 
+  .intro__profile-img {
+    max-height: 40vh;
+  }
   .intro__content {
     padding-left: 0;
     padding-right: 0;
@@ -495,9 +499,19 @@ body {
   }
 }
 
-@media screen and (max-width: 360px) {
+/* for larger mobiles */
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding-bottom: 0px;
+  }
+
   .intro {
     padding: 15px;
+  }
+
+  .intro__profile-img {
+    max-height: 30vh;
   }
 
   .headings {
@@ -511,6 +525,31 @@ body {
 
   .contact {
     font-size: 2.5rem;
+  }
+}
+/* for iphone 5/SE */
+@media screen and (max-width: 320px) {
+  .navbar {
+    padding-bottom: 0px;
+  }
+
+  .intro__greeting {
+    font-size: 3.2rem;
+  }
+
+  .intro__info {
+    font-size: 2.5rem;
+  }
+
+  .headings {
+    font-size: 2.3rem;
+  }
+  .contact {
+    font-size: 2.1rem;
+  }
+
+  .contact__info {
+    font-size: 1.8rem;
   }
 }
 
