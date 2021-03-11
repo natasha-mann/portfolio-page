@@ -11,6 +11,8 @@
 - [About the Project](#about-the-project)
 - [Plans for Improvement](#plans-for-improvement)
 - [Screenshots](#screenshots)
+  - [Full page screen capture of deployed site on laptop](#full-page-screen-capture-of-deployed-site-on-laptop)
+  - [Screenshot examples of navbar on mobile device](#screenshot-examples-of-navbar-on-mobile-device)
 
 ## Project Link
 
@@ -43,4 +45,12 @@ In the future I would like to develop the page further, to include some Javascri
 
 ## Screenshots
 
+### Full page screen capture of deployed site on laptop
+
 ![image](./assets/images/fullscreen-screenshot.png)
+
+### Screenshot examples of navbar on mobile device
+
+![image](./assets/images/mobile-screenshot-1.jpg)
+
+![image](assets/images/mobile-screenshot-2.jpg)
