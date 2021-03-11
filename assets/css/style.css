@@ -464,16 +464,22 @@ body {
 
   /* intro styles */
 
+  .intro__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .intro__greeting {
-    font-size: 4.4rem;
+    font-size: 3.6rem;
     font-weight: bolder;
   }
   .intro__title {
-    font-size: 4.6rem;
+    font-size: 3.5rem;
   }
   .intro__info {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-top: 2rem;
+    line-height: 3.4rem;
   }
 
   /* project section */
@@ -490,6 +496,10 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+  .intro {
+    padding: 15px;
+  }
+
   .headings {
     font-size: 2.8rem;
   }
@@ -497,6 +507,10 @@ body {
   .first-card-title {
     font-size: 1.5rem;
     width: 80%;
+  }
+
+  .contact {
+    font-size: 2.5rem;
   }
 }
 
