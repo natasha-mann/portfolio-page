@@ -226,10 +226,12 @@ body {
 }
 
 .project-card:hover {
-  width: 38%;
+  background-size: 130%;
 }
+
 .project-card:first-child:hover {
-  width: 75%;
+  background-size: cover;
+  width: 70%;
 }
 
 .card-titles {
