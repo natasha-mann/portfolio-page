@@ -2,6 +2,7 @@
   --pink: rgb(221, 146, 155);
   --teal: rgb(82, 181, 178);
   --darkteal: rgb(73, 171, 168);
+  --grey: rgb(234, 237, 240);
 }
 
 html {
@@ -80,7 +81,7 @@ body {
   text-underline-offset: 30%;
 }
 
-/* this is for the background images behind the titles so we can change the opacity */
+/* this is for the background paint stripe behind the titles so we can change the opacity */
 .headings::after {
   content: "";
   background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
@@ -184,7 +185,7 @@ body {
 
 /* Projects Section */
 
-.projects-container {
+.projects__container {
   width: 100%;
   position: relative;
   top: 10%;
@@ -193,7 +194,7 @@ body {
   justify-content: center;
 }
 
-.project-card {
+.project__card {
   text-align: justify;
   position: relative;
   margin: 15px;
@@ -204,32 +205,32 @@ body {
   text-decoration: none;
 }
 
-.project-card:first-child {
+.project__card:first-child {
   width: 75vw;
   background-image: url(../images/project-img-1.jpg);
 }
 
-.project-card:nth-child(2) {
+.project__card:nth-child(2) {
   background-image: url(../images/placeholder-1.jpg);
 }
 
-.project-card:nth-child(3) {
+.project__card:nth-child(3) {
   background-image: url(../images/placeholder-2.jpg);
 }
 
-.project-card:nth-child(4) {
+.project__card:nth-child(4) {
   background-image: url(../images/placeholder-3.jpg);
 }
 
-.project-card:nth-child(5) {
+.project__card:nth-child(5) {
   background-image: url(../images/placeholder-4.jpg);
 }
 
-.project-card:hover {
+.project__card:hover {
   background-size: 130%;
 }
 
-.project-card:first-child:hover {
+.project__card:first-child:hover {
   background-size: cover;
   width: 70%;
 }
@@ -289,7 +290,7 @@ body {
 }
 
 .footer {
-  border-top: 1px solid rgb(234, 237, 240);
+  border-top: 1px solid var(--grey);
 }
 
 .footer div {
@@ -371,11 +372,11 @@ body {
 
   /* project section */
 
-  .project-card {
+  .project__card {
     height: 200px;
   }
 
-  .project-card:first-child {
+  .project__card:first-child {
     width: 80vw;
     height: 300px;
   }
@@ -490,12 +491,12 @@ body {
 
   /* project section */
 
-  .project-card {
+  .project__card {
     height: 200px;
     width: 70vw;
   }
 
-  .project-card:first-child {
+  .project__card:first-child {
     width: 80vw;
     height: 250px;
   }
