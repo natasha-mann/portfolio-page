@@ -32,9 +32,10 @@ The portfolio includes the following sections:
 - The page is fully responsive for all screen sizes
 - It includes some accessibility features (eg. alt attributes).
 - Animations on image and text on title page
-- Pseudo classes on nav links to change colour and size when hovered over.
+- Nav links change colour and size when hovered over.
+- Project images change size when hovered over.
 - Project images are linked to deployed project pages.
-- I added hidden navbar element for mobile users, utilizing the animations in CSS along with pseudo-classes to apply certain CSS properties when a box is selected. This could be further improved in the future with Javascript, as noted below.
+- Hidden navbar element for mobile users, utilizing the animations in CSS along with pseudo-classes to apply certain CSS properties when a box is selected. This could be further improved in the future with Javascript, as noted below.
 
 ## Plans for Improvement
 
