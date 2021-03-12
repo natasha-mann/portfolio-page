@@ -6,10 +6,12 @@
 
 - [Project Link](#project-link)
 - [About the Project](#about-the-project)
+  - [Features](#features)
 - [Plans for Improvement](#plans-for-improvement)
 - [Screenshots](#screenshots)
-  - [Full page screen capture of deployed site on laptop](#full-page-screen-capture-of-deployed-site-on-laptop)
-  - [Screenshot examples of navbar on mobile device](#screenshot-examples-of-navbar-on-mobile-device)
+  - [Desktop/laptop](#desktoplaptop)
+  - [Mobile (menu closed and open)](#mobile-menu-closed-and-open)
+  - [Tablet View](#tablet-view)
 
 ## Project Link
 
@@ -17,7 +19,7 @@ Click [here](https://natasha-mann.github.io/portfolio-page/) to view the project
 
 ## About the Project
 
-This project is my personal portfolio and features examples of my GitHub projects. The project was built fully with HTML and CSS.
+This project is my personal portfolio and features examples of my GitHub projects. The project was completed during week 2 of my Coding Bootcamp and the brief was to create a working portfolio which was fully responsive, used flex containers, media queries and CSS variables.
 
 The portfolio includes the following sections:
 
@@ -25,11 +27,14 @@ The portfolio includes the following sections:
 - Projects
 - Contact
 
-The page is fully responsive and includes some accessibility features (eg. alt attributes).
+### Features
 
-I implemented some animations on the title page and some :hover pseudo classes in the CSS to elevate the page.
-
-I also decided to add a hidden navbar element for mobile users, utilizing the animations in CSS along with pseudo-classes to apply certain CSS properties when a box is selected. This could be further improved in the future with Javascript, as noted below.
+- The page is fully responsive for all screen sizes
+- It includes some accessibility features (eg. alt attributes).
+- Animations on image and text on title page
+- Pseudo classes on nav links to change colour and size when hovered over.
+- Project images are linked to deployed project pages.
+- I added hidden navbar element for mobile users, utilizing the animations in CSS along with pseudo-classes to apply certain CSS properties when a box is selected. This could be further improved in the future with Javascript, as noted below.
 
 ## Plans for Improvement
 
@@ -42,12 +47,21 @@ In the future I would like to develop the page further, to include some Javascri
 
 ## Screenshots
 
-### Full page screen capture of deployed site on laptop
+### Desktop/laptop
 
 ![image](./assets/images/fullscreen-screenshot.png)
 
-### Screenshot examples of navbar on mobile device
+### Mobile (menu closed and open)
 
-![image](./assets/images/mobile-screenshot-1.jpg)
+<p float="left">
+  <img src="./assets/images/mobile-menu-closed-1.png" width=30% />
+  <img src="./assets/images/mobile-menu-closed-2.png" width=30% /> 
+  <img src="./assets/images/mobile-menu-open.png" width=30%/>
+</p>
 
-![image](assets/images/mobile-screenshot-2.jpg)
+### Tablet View
+
+<p>
+ <img src="./assets/images/tablet-screenshot-1.png" width=40%>
+ <img src="./assets/images/tablet-screenshot-2.png" width=50%>
+</p>
