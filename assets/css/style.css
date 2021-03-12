@@ -41,6 +41,7 @@ body {
   display: inline;
 }
 
+/* navigation link styles */
 .navbar-link {
   margin: 20px;
   text-decoration: none;
@@ -96,7 +97,7 @@ body {
   z-index: -1;
 }
 
-/* Title section styles */
+/* Introduction section styling*/
 
 .intro {
   height: 100%;
@@ -194,6 +195,7 @@ body {
   justify-content: center;
 }
 
+/* styling for individual project cards */
 .project__card {
   text-align: justify;
   position: relative;
@@ -204,6 +206,8 @@ body {
   background-position: center;
   text-decoration: none;
 }
+
+/* styling to add background image to project cards */
 
 .project__card:first-child {
   width: 75vw;
@@ -226,6 +230,8 @@ body {
   background-image: url(../images/placeholder-4.jpg);
 }
 
+/* project card styling on hover */
+
 .project__card:hover {
   background-size: 130%;
 }
@@ -234,6 +240,8 @@ body {
   background-size: cover;
   width: 70%;
 }
+
+/* titles on the project cards */
 
 .card-titles {
   position: relative;
@@ -329,7 +337,7 @@ body {
   }
 }
 
-/* media query for larget tablets/laptops */
+/* media query for largest tablets/laptops */
 @media screen and (max-width: 1024px) {
   /* navbar */
   .home-nav {
@@ -431,6 +439,8 @@ body {
     animation: flyIn 0.1s ease-out;
   }
 
+  /* styling for the hidden/drop down navbar */
+
   #nav-toggle ~ .nav-list {
     display: none;
   }
@@ -502,7 +512,7 @@ body {
   }
 }
 
-/* for larger mobiles */
+/* media query for larger mobiles */
 
 @media screen and (max-width: 480px) {
   .navbar {
@@ -530,7 +540,8 @@ body {
     font-size: 2.5rem;
   }
 }
-/* for iphone 5/SE */
+
+/* media query for iphone 5/SE */
 @media screen and (max-width: 320px) {
   .navbar {
     padding-bottom: 0px;
@@ -556,7 +567,7 @@ body {
   }
 }
 
-/* profile pic animation */
+/* profile picture animation - drops in from top of screen and bounces twice */
 
 @keyframes dropInAndBounce {
   0% {
@@ -582,7 +593,7 @@ body {
   }
 }
 
-/* intro text animation */
+/* intro text animation - drops in from off the top of the screen*/
 
 @keyframes dropIn {
   0% {
@@ -594,7 +605,7 @@ body {
   }
 }
 
-/* mobile navbar animation */
+/* mobile navbar animation - to make it drop into view when selected */
 
 @keyframes flyIn {
   0% {
