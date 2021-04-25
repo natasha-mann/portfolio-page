@@ -5,11 +5,6 @@
   --grey: rgb(234, 237, 240);
 }
 
-.intro {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
 /* navigation link styles */
 
 .my-link:hover {
@@ -102,37 +97,6 @@
   .intro__profile-img {
     max-height: 40vh;
   }
-  /* project section */
-
-  .project__card {
-    height: 200px;
-  }
-
-  .project__card:first-child {
-    width: 80vw;
-    height: 300px;
-  }
-
-  .card-titles {
-    width: 75%;
-    padding: 10px 30px;
-    font-size: 1.2rem;
-    line-height: 3rem;
-  }
-
-  .first-card-title {
-    width: 60%;
-    padding: 15px 25px;
-    font-size: 1.5rem;
-  }
-
-  /* contact section */
-
-  .contact__info {
-    width: 75%;
-    text-align: center;
-    font-size: 2.5rem;
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -141,46 +105,11 @@
   }
 }
 
-/* media query for tablets */
-@media screen and (max-width: 550px) {
-  /* project section */
-
-  .project__card {
-    height: 200px;
-    width: 70vw;
-  }
-
-  .project__card:first-child {
-    width: 80vw;
-    height: 250px;
-  }
-}
-
 /* media query for larger mobiles */
 
 @media screen and (max-width: 480px) {
   .intro {
     margin-top: 20% !important;
-  }
-
-  .first-card-title {
-    font-size: 1.5rem;
-    width: 80%;
-  }
-
-  .contact {
-    font-size: 2.5rem;
-  }
-}
-
-/* media query for iphone 5/SE */
-@media screen and (max-width: 320px) {
-  .contact {
-    font-size: 2.1rem;
-  }
-
-  .contact__info {
-    font-size: 1.8rem;
   }
 }
 
