@@ -60,7 +60,10 @@
   </head>
   <body>
     <header id="home">
-      <nav class="navbar p-3 fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav
+        id="navbar"
+        class="navbar p-3 fixed-top navbar-expand-lg navbar-light bg-light"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="./assets/images/favicons/favicon-32x32.png"
@@ -94,7 +97,7 @@
     <main>
       <!-- this is the intro section with image and greeting text -->
       <section class="container-fluid intro">
-        <div class="row mt-5 justify-content-evenly align-items-center intro">
+        <div class="row pt-5 justify-content-evenly align-items-center intro">
           <div class="col-sm-12 gy-0 col-lg-5 align-items-center">
             <div class="intro__img-container text-center">
               <img
@@ -291,7 +294,7 @@
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="./assets/images/weather-img.png"
                 class="card-img-top"
@@ -302,29 +305,33 @@
                   <u>Weather Dashboard</u>
                 </h4>
                 <p class="card-text pt-3 text-center">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  This app uses the OpenWeatherAPI to retrieve weather forecast
+                  data. I used jQuery to dynamically render a current day
+                  overview and a 5-day forecast for any city searched. I used
+                  local storage to store the most recently searched places and
+                  rendered them on page dynamically.
                 </p>
-                <div class="gap-2 d-flex pt-2 justify-content-center">
-                  <a
-                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
-                    href="https://github.com/natasha-mann/weather-dashboard"
-                    role="button"
-                    >GitHub Repo</a
-                  >
-                  <a
-                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
-                    href="https://natasha-mann.github.io/weather-dashboard"
-                    role="button"
-                    >Live App</a
-                  >
+                <div class="card-footer text-muted">
+                  <div class="gap-2 d-flex pt-2 justify-content-center">
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://github.com/natasha-mann/weather-dashboard"
+                      role="button"
+                      >GitHub Repo</a
+                    >
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://natasha-mann.github.io/weather-dashboard"
+                      role="button"
+                      >Live App</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="./assets/images/code-img.png"
                 class="card-img-top"
@@ -335,29 +342,33 @@
                   <u>Code Quiz</u>
                 </h4>
                 <p class="card-text pt-3 text-center">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  This app used jQuery to dynamically render code questions on
+                  screen. The code is written so that the questions can easily
+                  be changed and/or added to. This app uses local storage to
+                  store user scores and renders them on a separate html page in
+                  a highscores table.
                 </p>
-                <div class="gap-2 d-flex pt-2 justify-content-center">
-                  <a
-                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
-                    href="https://github.com/natasha-mann/code_quiz"
-                    role="button"
-                    >GitHub Repo</a
-                  >
-                  <a
-                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
-                    href="https://natasha-mann.github.io/code_quiz"
-                    role="button"
-                    >Live App</a
-                  >
+                <div class="card-footer text-muted">
+                  <div class="gap-2 d-flex pt-2 justify-content-center">
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://github.com/natasha-mann/code_quiz"
+                      role="button"
+                      >GitHub Repo</a
+                    >
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://natasha-mann.github.io/code_quiz"
+                      role="button"
+                      >Live App</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="./assets/images/placeholder-3.jpg"
                 class="card-img-top"
@@ -372,7 +383,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="./assets/images/placeholder-4.jpg"
                 class="card-img-top"
@@ -430,10 +441,16 @@
     </footer>
 
     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
