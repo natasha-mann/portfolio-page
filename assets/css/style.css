@@ -26,6 +26,7 @@
   height: 100vh;
   background-image: url(..//images/background-image.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .intro__img-container {
