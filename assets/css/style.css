@@ -12,14 +12,6 @@
   color: var(--pink) !important;
 }
 
-/* Main section general styling */
-
-/* this is for the background paint stripe behind the titles so we can change the opacity */
-.headings::after {
-  content: "";
-  background-image: url(../images/Brush-Stroke-PNG-Free-Download.png);
-}
-
 /* Introduction section styling*/
 
 .intro {
