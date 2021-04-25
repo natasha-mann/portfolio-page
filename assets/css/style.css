@@ -5,55 +5,15 @@
   --grey: rgb(234, 237, 240);
 }
 
-html {
+/* html {
   font-size: 10px;
-}
-
-body {
-  width: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-}
-
-/* Header styles */
-.header {
-  position: relative;
-  padding-bottom: 30px;
-}
-
-/* Navbar styles */
-.navbar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 2;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  background-color: white;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-.inline {
-  display: inline;
-}
+} */
 
 /* navigation link styles */
-.navbar-link {
-  margin: 20px;
-  text-decoration: none;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: black;
-}
 
-.navbar-link:hover {
-  font-size: 2.4rem;
+.my-link:hover {
   text-decoration: underline;
-  color: var(--pink);
+  color: var(--pink) !important;
 }
 
 /* Main section general styling */
@@ -340,9 +300,9 @@ body {
 /* media query for largest tablets/laptops */
 @media screen and (max-width: 1024px) {
   /* navbar */
-  .home-nav {
+  /* .home-nav {
     display: none;
-  }
+  } */
 
   /* intro section */
   .intro {
@@ -414,7 +374,7 @@ body {
 /* media query for tablets */
 @media screen and (max-width: 550px) {
   /* navbar styles */
-  .navbar {
+  /* .navbar {
     padding: 10;
     left: 50%;
     transform: translate(-50%);
@@ -437,39 +397,16 @@ body {
     padding-top: 4rem;
     z-index: -1;
     animation: flyIn 0.1s ease-out;
-  }
+  } */
 
   /* styling for the hidden/drop down navbar */
 
-  #nav-toggle ~ .nav-list {
-    display: none;
-  }
-
-  #nav-toggle:checked ~ .nav-list {
-    display: block;
-  }
-
-  #nav-toggle ~ label {
-    display: block;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    background-color: white;
-    background-image: url(../images/hamburger.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 15px 0;
-    width: 100px;
-    text-align: center;
-  }
-
-  .navbar-link {
+  /* .navbar-link {
     margin: 1.2rem;
     font-size: 1.8rem;
     position: relative;
     line-height: 5rem;
-  }
+  } */
 
   /* main section styles */
   .headings {
@@ -515,9 +452,9 @@ body {
 /* media query for larger mobiles */
 
 @media screen and (max-width: 480px) {
-  .navbar {
+  /* .navbar {
     padding-bottom: 0px;
-  }
+  } */
 
   .intro {
     padding: 15px;
