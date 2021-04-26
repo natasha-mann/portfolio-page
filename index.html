@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/ae0443040c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!-- title and description -->
@@ -49,57 +59,98 @@
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
   </head>
   <body>
-    <header id="home" class="header">
-      <!-- this is the navbar with navigation links -->
-      <nav class="navbar">
-        <!-- toggle for mobile nav linked to animation in CSS -->
-        <input type="checkbox" id="nav-toggle" class="mobile-nav" />
-        <label for="nav-toggle" class="mobile-nav"></label>
-        <ul class="nav-list">
-          <li class="inline">
-            <a class="navbar-link home-nav" href="#home">Home</a>
-          </li>
-          <li class="inline">
-            <a class="navbar-link" href="#about-me">About Me</a>
-          </li>
-          <li class="inline">
-            <a class="navbar-link" href="#projects">My Projects</a>
-          </li>
-          <li class="inline">
-            <a class="navbar-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <header id="home">
+      <nav
+        id="navbar"
+        class="navbar p-3 fixed-top navbar-expand-lg navbar-light bg-light"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/images/favicons/favicon-32x32.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse justify-content-end navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link my-link" href="#home">Home</a>
+              <a class="nav-link my-link" href="#about-me">About Me</a>
+              <a class="nav-link my-link" href="#projects">My Projects</a>
+              <a class="nav-link my-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <main class="main">
+    <main>
       <!-- this is the intro section with image and greeting text -->
-      <section class="intro">
-        <div class="intro__img-container">
-          <img
-            class="intro__profile-img"
-            src="assets/images/profile-image-salsa.jpg"
-            alt="Photo of Natasha"
-          />
-        </div>
-        <div class="intro__content">
-          <div class="intro__greeting">Hello! Hola! Ciao!</div>
-          <div class="intro__title">
-            I'm <span class="intro__name">Natasha ...</span>
+      <section class="container-fluid intro">
+        <div class="row pt-5 justify-content-evenly align-items-center intro">
+          <div class="col-sm-12 gy-0 col-lg-5 align-items-center">
+            <div class="intro__img-container text-center">
+              <img
+                class="rounded-circle intro__profile-img"
+                src="assets/images/profile-image-salsa.jpg"
+                alt="Photo of Natasha"
+              />
+            </div>
           </div>
-          <div class="intro__info">
-            ... a linguist taking on the challenge of learning how to code.
-            Welcome to my portfolio!
+          <div class="col-sm-12 gy-0 col-lg-7">
+            <div class="mx-lg-5 mx-sm-1 intro__content">
+              <div class="fs-1 fw-bolder">Hello! Hola! Ciao!</div>
+              <div class="fs-1 fw-bold mb-2">
+                I'm <span class="intro__name fw-bold">Natasha</span>
+              </div>
+              <div class="fs-3 lh-base intro-text">
+                A linguist taking on the challenge of learning how to code.
+              </div>
+              <div class="fs-3 lh-base intro-text">
+                Welcome to my portfolio!
+              </div>
+              <div class="pt-4">
+                <a
+                  href="https://www.linkedin.com/in/natasha-s-mann/"
+                  target="_blank"
+                  class="link-dark"
+                  ><i class="fab fa-3x fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://github.com/natasha-mann"
+                  target="_blank"
+                  class="link-dark"
+                >
+                  <i class="fab fa-3x fa-github-square px-4"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
       <!-- this is the about me section -->
-      <section id="about-me" class="sections">
-        <h2 class="headings">About Me</h2>
-        <div class="about__container">
-          <div class="about__item">
-            <h2 class="about__subtitle">My Past</h2>
-            <div class="about__info">
+      <section class="container pt-5" id="about-me">
+        <div class="row py-5">
+          <div class="col-12">
+            <h2 class="text-center headings fs-2 fw-bold">ABOUT ME</h2>
+          </div>
+        </div>
+
+        <div class="row gx-5 pt-4">
+          <div class="col-sm-12 col-lg-4 text-center">
+            <h3 class="py-3">My Past</h3>
+            <div class="about__info pt-2">
               I have spent most of my life <span>learning languages</span> - the
               spoken kind. Spanish, French, and Italian mainly, though I have
               been known to learn random phrases for any country I visit... I
@@ -110,118 +161,290 @@
               well to coding!
             </div>
           </div>
-          <div class="about__item">
-            <h2 class="about__subtitle">My Present</h2>
-            <div class="about__info">
+          <div class="col-sm-12 col-lg-4 border-start border-end text-center">
+            <h3 class="py-3">My Present</h3>
+            <div class="about__info pt-2">
               I am currently a student of the
               <span
                 >University of Birmingham full-stack web development coding
                 bootcamp.</span
               >
-              So far, I would say I have a "conversational level" (excuse the
-              language pun!) in both <span>HTML and CSS</span>, including
-              building responsive and accessible websites. By the end of the
-              course I will hopefully have developed a solid understanding of
-              Javascript, have learnt how to work with servers and databases,
-              and will be able to engineer a full-stack web application.
+              I am proficient in <span>HTML and CSS</span> and am familiar with
+              several CSS frameworks including Bootstrap and Semantic UI. I am
+              also confident in building functional code in vanilla JavaScript,
+              and utilizing the jQuery framework. By the end of the course I
+              will also have a solid understanding of <span>node.js</span> and
+              <span>React.js</span> and will be able to engineer a full-stack
+              web application.
             </div>
           </div>
-          <div class="about__item">
-            <h2 class="about__subtitle">My Future</h2>
-            <div class="about__info">
+          <div class="col-sm-12 col-lg-4 text-center">
+            <h3 class="py-3">My Future</h3>
+            <div class="about__info pt-2">
               I am excited about the prospect of continuing to
               <span>learn and develop</span> my skills even after my bootcamp
-              ends. I am intrigued by all of the different coding languages and
+              ends. I am intrigued by the many different coding languages and
               frameworks and would love to study more and add
-              <span>more skills</span> to my portfolio. I am confident in my
-              ability to <span>adapt</span> and mould myself to the workings of
-              different companies and would relish the opportunity to start a
-              new career as a <span>software developer.</span>
+              <span>more skills</span> to my portfolio. I am a
+              <span>fast learner</span> and am confident in my ability to
+              <span>adapt</span> and mould myself to the workings of different
+              companies.
             </div>
           </div>
         </div>
       </section>
 
       <!-- this is the projects section -->
-      <section id="projects" class="sections">
-        <div class="project__header">
-          <h2 class="headings">Projects</h2>
+      <section id="projects" class="container pt-5">
+        <div class="row py-5">
+          <div class="col-12">
+            <h2 class="text-center headings fs-2 fw-bold">PROJECTS</h2>
+          </div>
         </div>
-
-        <div class="projects__container">
-          <a
-            class="project__card"
-            href="https://natasha-mann.github.io/refactoring-seo-website/"
-            target="_blank"
-          >
-            <div>
-              <div class="card-titles first-card-title">
-                <h2>Horiseon Website</h2>
-                <div>Refactoring HTML+ CSS</div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-sm-12">
+            <div class="card mb-3">
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      src="./assets/images/travel1.png"
+                      class="d-block w-100 carousel-img"
+                      alt="Travel Companion app home page"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="./assets/images/travel2.png"
+                      class="d-block w-100 carousel-img"
+                      alt="Results page for Travel Companion"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/images/travel3.png"
+                      class="d-block w-100 carousel-img"
+                      alt="Favourites page for Travel Companion"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-            </div></a
-          >
-
-          <a class="project__card" href="" target="_blank">
-            <div>
-              <div class="card-titles">
-                <h2>New Project</h2>
-                <div>Coming Soon!</div>
+              <div class="card-body">
+                <h4 class="card-title pt-2 text-center">
+                  <u>Travel Companion</u>
+                </h4>
+                <p class="card-text pt-3 text-center">
+                  Travel Companion is a travel app designed to allow the user to
+                  search for a country of their choice, or view a randomly
+                  generated country, and find information such as places to see
+                  in the capital, health data and a currency converter. The user
+                  can add countries to their favourites through local storage to
+                  review at a later date.
+                </p>
+                <div class="gap-2 d-flex pt-2 justify-content-center">
+                  <a
+                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                    href="https://github.com/natasha-mann/travel-app"
+                    role="button"
+                    >GitHub Repo</a
+                  >
+                  <a
+                    class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                    href="https://natasha-mann.github.io/travel-app"
+                    role="button"
+                    >Live App</a
+                  >
+                </div>
               </div>
-            </div></a
-          >
-
-          <a class="project__card" href="" target="_blank">
-            <div>
-              <div class="card-titles">
-                <h2>New Project</h2>
-                <div>Coming Soon!</div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/weather-img.png"
+                class="card-img-top"
+                alt="Weather app dashboard"
+              />
+              <div class="card-body">
+                <h4 class="card-title pt-2 text-center">
+                  <u>Weather Dashboard</u>
+                </h4>
+                <p class="card-text pt-3 text-center">
+                  This app uses the OpenWeatherAPI to retrieve weather forecast
+                  data. I used jQuery to dynamically render a current day
+                  overview and a 5-day forecast for any city searched. I used
+                  local storage to store the most recently searched places and
+                  rendered them on page dynamically.
+                </p>
+                <div class="card-footer text-muted">
+                  <div class="gap-2 d-flex pt-2 justify-content-center">
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://github.com/natasha-mann/weather-dashboard"
+                      role="button"
+                      >GitHub Repo</a
+                    >
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://natasha-mann.github.io/weather-dashboard"
+                      role="button"
+                      >Live App</a
+                    >
+                  </div>
+                </div>
               </div>
-            </div></a
-          >
-
-          <a class="project__card" href="" target="_blank">
-            <div>
-              <div class="card-titles">
-                <h2>New Project</h2>
-                <div>Coming Soon!</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/code-img.png"
+                class="card-img-top"
+                alt="Code quiz landing page"
+              />
+              <div class="card-body">
+                <h4 class="card-title pt-2 text-center">
+                  <u>Code Quiz</u>
+                </h4>
+                <p class="card-text pt-3 text-center">
+                  This app used jQuery to dynamically render code questions on
+                  screen. The code is written so that the questions can easily
+                  be changed and/or added to. This app uses local storage to
+                  store user scores and renders them on a separate html page in
+                  a highscores table.
+                </p>
+                <div class="card-footer text-muted">
+                  <div class="gap-2 d-flex pt-2 justify-content-center">
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://github.com/natasha-mann/code_quiz"
+                      role="button"
+                      >GitHub Repo</a
+                    >
+                    <a
+                      class="btn btn-primary btn-lg center-aligned w-50 project-btn"
+                      href="https://natasha-mann.github.io/code_quiz"
+                      role="button"
+                      >Live App</a
+                    >
+                  </div>
+                </div>
               </div>
-            </div></a
-          >
-
-          <a class="project__card" href="" target="_blank">
-            <div>
-              <div class="card-titles new-card-titles">
-                <h2>New Project</h2>
-                <div>Coming Soon!</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/placeholder-3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title pt-2 text-center">
+                  <u>Coming soon!</u>
+                </h4>
+                <p class="card-text pt-3 text-center">Watch this space.</p>
               </div>
-            </div></a
-          >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/placeholder-4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title pt-2 text-center">
+                  <u>Coming Soon!</u>
+                </h4>
+                <p class="card-text pt-3 text-center">Watch this space.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- this is the contact section -->
-      <section id="contact" class="sections">
-        <h2 class="headings contact">Contact Me</h2>
-        <div class="contact__content contact__info">
+
+      <section id="contact" class="container pt-5 pb-5">
+        <div class="row py-5">
+          <div class="col-12">
+            <h2 class="text-center headings fs-2 fw-bold">CONTACT ME</h2>
+          </div>
+        </div>
+
+        <div class="fs-3 text-center py-5">
           Feel free to contact me or check out my social channels below.
         </div>
-        <div class="contact__content social">
+        <div class="text-center py-5">
           <a href="https://github.com/natasha-mann" target="_blank"
             ><img
-              class="social__icon"
+              class="px-2 social__icon"
               src="assets/images/GitHub-icon.png"
               alt="Github icon"
           /></a>
           <a href="https://www.instagram.com/salsatash/" target="_blank"
             ><img
-              class="social__icon"
+              class="px-2 social__icon"
               src="assets/images/instagram-logo.png"
               alt="Instagram icon"
           /></a>
           <a href="https://www.linkedin.com/in/natasha-s-mann/" target="_blank"
             ><img
-              class="social__icon"
+              class="px-2 social__icon"
               src="assets/images/linkedin-icon.png"
               alt="Linkedin icon"
           /></a>
@@ -230,8 +453,21 @@
     </main>
 
     <!-- this is the footer section -->
-    <footer class="footer">
+    <footer class="footer border-top py-3 text-center">
       <div>Designed and Built by Natasha Mann</div>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
