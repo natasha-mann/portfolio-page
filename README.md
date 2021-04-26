@@ -10,8 +10,7 @@
 - [Plans for Improvement](#plans-for-improvement)
 - [Screenshots](#screenshots)
   - [Desktop/laptop](#desktoplaptop)
-  - [Mobile (menu closed and open)](#mobile-menu-closed-and-open)
-  - [Tablet View](#tablet-view)
+  - [Mobile View](#mobile-view)
 
 ## Project Link
 
@@ -44,25 +43,13 @@ In the future I would like to develop the page further, to include some Javascri
 - A "scroll-snap" feature on desktop to lock the viewport to each new section once the user has finished scrolling.
 - An "internationalization" feature to allow the user to switch the site to their preferred language.
 - A "dark-mode" element
-- An improved hidden navbar for mobile users which drops down from the top when a button is clicked, and retracts when the user selects a menu item.
 
 ## Screenshots
 
 ### Desktop/laptop
 
-![image](./assets/images/fullscreen-screenshot.png)
+![image](./assets/images/screenshots/newDesktop.png)
 
-### Mobile (menu closed and open)
+### Mobile View
 
-<p float="left">
-  <img src="./assets/images/mobile-menu-closed-1.png" width=30% />
-  <img src="./assets/images/mobile-menu-closed-2.png" width=30% /> 
-  <img src="./assets/images/mobile-menu-open.png" width=30%/>
-</p>
-
-### Tablet View
-
-<p>
- <img src="./assets/images/tablet-screenshot-1.png" width=40%>
- <img src="./assets/images/tablet-screenshot-2.png" width=50%>
-</p>
+![image](./assets/images/screenshots/mobile1.png)

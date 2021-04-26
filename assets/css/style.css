@@ -16,9 +16,10 @@
 
 .intro {
   height: 100vh;
-  background-image: url(..//images/background-image.jpg);
+  background-image: url(../images/background-peru.JPG);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+  color: white;
 }
 
 .intro__img-container {
