@@ -88,7 +88,7 @@
 /* media query for largest tablets/laptops */
 @media screen and (max-width: 1024px) {
   .intro__profile-img {
-    max-height: 40vh;
+    max-height: 30vh;
   }
 }
 
@@ -96,11 +96,17 @@
   .intro__content {
     text-align: center;
   }
+  .intro-text {
+    font-size: 1rem !important;
+  }
 }
 
 /* media query for larger mobiles */
 
 @media screen and (max-width: 480px) {
+  .intro__profile-img {
+    max-height: 30vh;
+  }
   .intro {
     margin-top: 20% !important;
   }
