@@ -48,7 +48,7 @@
 /* Projects Section */
 
 .carousel-img {
-  height: 60vh !important;
+  min-height: 50% !important;
 }
 
 .project-btn {
@@ -59,6 +59,14 @@
 .project-btn:hover {
   background-color: var(--darkteal) !important;
   border-color: var(--darkteal);
+}
+
+.project-img {
+  height: 50%;
+}
+
+.project-img-new {
+  height: 75%;
 }
 
 .card {
