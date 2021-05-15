@@ -47,8 +47,8 @@
 
 /* Projects Section */
 
-.carousel-img {
-  min-height: 50% !important;
+.main-project {
+  height: 63vh !important;
 }
 
 .project-btn {
@@ -91,9 +91,13 @@
 /* media query for large laptop/desktop */
 
 /* media query for largest tablets/laptops */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .intro__profile-img {
-    max-height: 30vh;
+    max-height: 40vh;
+  }
+
+  .main-project {
+    height: 50vh !important;
   }
 }
 
@@ -103,6 +107,14 @@
   }
   .intro-text {
     font-size: 1rem !important;
+  }
+  .main-project {
+    height: 50vh !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-project {
+    height: 40vh !important;
   }
 }
 
@@ -114,6 +126,9 @@
   }
   .intro {
     margin-top: 20% !important;
+  }
+  .main-project {
+    height: 38vh !important;
   }
 }
 
