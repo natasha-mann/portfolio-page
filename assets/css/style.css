@@ -38,6 +38,11 @@
   color: var(--pink);
 }
 
+.tech-logo {
+  height: 10%;
+  width: 10%;
+}
+
 /* About section */
 
 .about__info span {
