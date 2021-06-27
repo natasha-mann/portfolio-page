@@ -84,9 +84,12 @@
 
 /* Contact section */
 
-.social__icon:hover {
-  width: 7%;
-  height: 7%;
+.social-links {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.social-links:hover {
+  color: var(--pink);
 }
 
 .footer div {
