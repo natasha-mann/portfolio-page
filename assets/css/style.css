@@ -43,6 +43,14 @@
   width: 10%;
 }
 
+.intro-link {
+  color: white;
+}
+
+.intro-link:hover {
+  color: var(--pink);
+}
+
 /* About section */
 
 .about__info span {
